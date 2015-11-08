@@ -60,14 +60,12 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.axAcroPDF1 = new AxAcroPDFLib.AxAcroPDF();
             this.contextMenuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numberSet)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.Method.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -316,7 +314,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(216, 28);
             this.button5.TabIndex = 18;
-            this.button5.Text = "S T O P";
+            this.button5.Text = "P L A Y";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -400,23 +398,12 @@
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
-            // axAcroPDF1
-            // 
-            this.axAcroPDF1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.axAcroPDF1.Enabled = true;
-            this.axAcroPDF1.Location = new System.Drawing.Point(694, 0);
-            this.axAcroPDF1.Name = "axAcroPDF1";
-            this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
-            this.axAcroPDF1.Size = new System.Drawing.Size(795, 755);
-            this.axAcroPDF1.TabIndex = 23;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1489, 755);
-            this.Controls.Add(this.axAcroPDF1);
+            this.ClientSize = new System.Drawing.Size(688, 755);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Method);
             this.Controls.Add(this.button5);
@@ -435,10 +422,9 @@
             this.Controls.Add(this.MyText);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ZewReader";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.contextMenuStrip2.ResumeLayout(false);
@@ -449,7 +435,6 @@
             this.Method.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -487,7 +472,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
-        private AxAcroPDFLib.AxAcroPDF axAcroPDF1;
+       // private AxAcroPDFLib.AxAcroPDF axAcroPDF2;
+       // public AxAcroPDFLib.AxAcroPDF axAcroPDF2;
         // public AxAcroPDFLib.AxAcroPDF axAcroPDF1;
     }
 }

@@ -43,26 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.AcroPDFLib.dll" size="8192">
-      <assemblyIdentity name="AxInterop.AcroPDFLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Code7248.word_reader.dll" size="217600">
+      <assemblyIdentity name="Code7248.word_reader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9uQyQRasAZNCI3nuN88B6xEN5jnwen0bpq4hcvXGzEc=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.AcroPDFLib.dll" size="11776">
-      <assemblyIdentity name="Interop.AcroPDFLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WH44v3o6gCXSgU1Ruo+KMI1jGQJm9lJpH7CDbyylsI0=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>q2pImk2eCijeUxmSFWckWogZSzc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,8 +61,8 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>C/YIKXGUjLfaGWG0RkjLhRHaqnXUUduWslgjyil1KAg=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>32vZndiSM/PrIS919Y92MkTfIeQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -85,8 +73,8 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JQSMXfowjxyKaYl3eFLWHCEtfBKhN6IsjsrtNdPUyGY=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>t0k3ffJnIFhj7pnlzJVnDJUcjaI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -97,8 +85,8 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>019jveXDvkRddT3HSEtEwqRP3iSbE9fuRD6TNYTife0=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wsn4UVc9eyUR/ZxFOwSIuj9Tmxw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,8 +97,8 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CesCkcq/OcmpTNlwuEUYZC8LU0QQCt0i2B3E0PrSWPE=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>VJB5yIxtRZCm2dL7NwR7yq9kXxg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -119,8 +107,8 @@
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HAyFZ4rpY7yW0Lf74euJB0zx++A=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ZewReader.exe.config" size="167">
@@ -128,8 +116,8 @@
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KMpFxPeEUhuZZwIkzmM2feuRSYEXLF3ODklvcvx9QCo=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zs0/m2EC7bZkaMXI4CN7NV2RQzg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="zewreader.ico" size="370070">
@@ -137,8 +125,8 @@
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xO8D/vkbRohMeE12GZKTeySa/6gaf4Z+SF8wTipLZHc=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xTdd2VHhwxUtk7M7Fg1yH2t6IHw=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

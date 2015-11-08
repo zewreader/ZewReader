@@ -11,6 +11,7 @@ using iTextSharp.text.pdf.parser;
 using iTextSharp.text.pdf;
 using iTextSharp;
 using System.IO;
+using Code7248.word_reader;
 
 
 namespace SpeedReader
@@ -36,6 +37,7 @@ namespace SpeedReader
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Stop();
+            button5.Text = "P L A Y";
             OpenFileDialog dlg = new OpenFileDialog();
             string filepath;
             dlg.Filter = "PDF files(*.PDF)|*.PDF|All files(*.*)|*.*";
@@ -72,18 +74,24 @@ namespace SpeedReader
                     }
                     reader.Close();
                     i = 0;
-                    strText.Replace("\t", " ");
-                    strText.Replace("  ", " ");
-                    strText.Replace("\u2000", " ");
-                    strText.Replace(Environment.NewLine, "\n");
+                   strText = strText.Replace("\t", " ");
+                   strText = strText.Replace("  ", " ");
+                  strText =  strText.Replace("\u2000", " ");
+                    strText = strText.Replace(Environment.NewLine, "\n");
+                    if (mychar == '\n')
+                    {
+                        strText = strText.Replace("\n", " ");
+                        strText = strText.Replace(".", ". " + mychar);
+                    }
                     words = strText.Split(new char[] { mychar}, StringSplitOptions.RemoveEmptyEntries);
                     progressBar1.Maximum = words.Length;
                     timer1.Stop();
-                    timer1.Start();
+                    button5.Text = "P L A Y";
+                    System.Diagnostics.Process.Start(filepath);
                     //axFoxitCtl1.OpenFile();
-                    axAcroPDF1.LoadFile(filepath);
-                    axAcroPDF1.src = filepath;
-                    axAcroPDF1.Show();
+                    //axAcroPDF2.LoadFile(filepath);
+                    //axAcroPDF2.src = filepath;
+                    //axAcroPDF2.Show();
                    
 
 
@@ -113,21 +121,30 @@ namespace SpeedReader
                     label1.SelectAll();
                     label1.SelectionAlignment = HorizontalAlignment.Center;
                     i++;
-                    if (words[i - 1].Length < 5)
+                    int lenval= System.Convert.ToInt32(numberSet.Value);
+
+                    int myval = words[i - 1].Length;
+
+                    if (myval < 5)
                     {
-                        timer1.Interval = 10 * System.Convert.ToInt32(numberSet.Value);
+                        timer1.Interval = 10 * lenval;
                     }
-                    else
+                    else if (myval > 3000)
                     {
-                        timer1.Interval = words[i - 1].Length * System.Convert.ToInt32(numberSet.Value);
+                        timer1.Interval = 3000 * lenval;
+                    }
+                    else if (myval <= 3000 && myval >= 5)
+                    {
+                        timer1.Interval = words[i - 1].Length * lenval;
                     }
 
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                //throw;
+                timer1.Stop();
+                button5.Text = "P L A Y";
+              //  MessageBox.Show(ex.Message);
             }
 
 
@@ -173,22 +190,30 @@ namespace SpeedReader
                 {
 
                     i = 0;
-                    MyText2.Text.Replace(Environment.NewLine, "\n");
-                    MyText2.Text.Replace("\t", "\n");
+                   MyText2.Text = MyText2.Text.Replace(Environment.NewLine, "\n");
+                   MyText2.Text = MyText2.Text.Replace("\t", "\n");
+                   if (mychar == '\n')
+                   {
+                       MyText2.Text = MyText2.Text.Replace("\n", " ");
+                   }
+                   
                     string noline = MyText2.Text.Replace("\n", System.Convert.ToString(mychar));
-
+                    if (mychar == '\n')
+                    {
+                        noline = noline.Replace(".", ". " + mychar);
+                    }
                     words = noline.Split(new char[] { mychar }, StringSplitOptions.RemoveEmptyEntries);
 
 
                     progressBar1.Maximum = words.Length;
                     timer1.Stop();
-                    timer1.Start();
+                    button5.Text = "P L A Y";
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                //throw;
+                MessageBox.Show(ex.Message);
             }
 
         }
@@ -212,9 +237,10 @@ namespace SpeedReader
         {
 
             timer1.Stop();
+            button5.Text = "P L A Y";
             OpenFileDialog dlg = new OpenFileDialog();
             string filepath;
-            dlg.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
+            dlg.Filter = "Text files(*.txt)|*.txt|Doc files(*.doc)|*.doc|Docx files(*.docx)|*.docx|All files(*.*)|*.*";
 
             if (dlg.ShowDialog() == DialogResult.OK)
             {
@@ -223,15 +249,38 @@ namespace SpeedReader
                 string strText = string.Empty;
                 try
                 {
-                    MyText.Text = File.ReadAllText(dlg.FileName);
-                    MyText.Text.Replace("\t", " ");
-                    MyText.Text.Replace(Environment.NewLine, "\n");
+
+                    string ext = System.IO.Path.GetExtension(dlg.FileName);
+                  
+                    if (ext == ".doc" || ext == ".docx")
+                    {
+                        Code7248.word_reader.TextExtractor extractor = new TextExtractor(dlg.FileName);
+
+                        string contents = extractor.ExtractText();
+                        MyText.Text = contents;
+                    }
+                    else
+                    {
+
+                        MyText.Text = File.ReadAllText(dlg.FileName);
+                        
+                    }
+                   MyText.Text =  MyText.Text.Replace("\t", " ");
+                    MyText.Text = MyText.Text.Replace(Environment.NewLine, "\n");
+                    if (mychar == '\n')
+                    {
+                        MyText.Text = MyText.Text.Replace("\n", " ");
+                    }
                     string nolstrTextine = MyText.Text.Replace("\n", System.Convert.ToString(mychar));
                     i = 0;
+                    if (mychar == '\n')
+                    {
+                        nolstrTextine = nolstrTextine.Replace(".", ". " + mychar);
+                    }
                     words = nolstrTextine.Split(new char[] { mychar }, StringSplitOptions.RemoveEmptyEntries); ;
                     progressBar1.Maximum = words.Length;
                     timer1.Stop();
-                    timer1.Start();
+                    button5.Text = "P L A Y";
 
 
                 }
@@ -258,6 +307,9 @@ namespace SpeedReader
             }
             else
             {
+                int lenval = System.Convert.ToInt32(numberSet.Value);
+                timer1.Interval = lenval+30;
+                timer1.Stop();
                 timer1.Start();
                 button5.Text = "S T O P";
             }
@@ -306,8 +358,8 @@ namespace SpeedReader
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            axAcroPDF1.Dispose();
-            axAcroPDF1 = null;
+            //axAcroPDF2.Dispose();
+            //axAcroPDF2 = null;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

@@ -4,17 +4,17 @@
   <description asmv2:publisher="ZewReader" asmv2:product="ZewReader" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ZewReader.exe.manifest" size="7688">
+    <dependentAssembly dependencyType="install" codebase="ZewReader.exe.manifest" size="6892">
       <assemblyIdentity name="ZewReader.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VKqS2aOcI20rJKpTMlCGtUDNRK2QfNg0eCe+fV4lHFg=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TdMNRAd/ekT5LwWEUIMO0vVGnM8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
