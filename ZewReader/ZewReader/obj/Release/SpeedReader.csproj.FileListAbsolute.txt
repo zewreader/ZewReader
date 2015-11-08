@@ -1,0 +1,48 @@
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\SpeedReader.exe.config
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\Interop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\AxInterop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\SpeedReader.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\SpeedReader.exe
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\SpeedReader.pdb
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\itextsharp.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\itextsharp.pdfa.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\itextsharp.xtra.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\itextsharp.xml
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\Interop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Release\AxInterop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\SpeedReader.Form1.resources
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\SpeedReader.Properties.Resources.resources
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\SpeedReader.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\SpeedReader.exe
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Release\SpeedReader.pdb
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\Interop.AcroPDFLib.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\AxInterop.AcroPDFLib.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\SpeedReader.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\itextsharp.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\itextsharp.pdfa.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\itextsharp.xtra.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\itextsharp.xml
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\Interop.AcroPDFLib.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\AxInterop.AcroPDFLib.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\SpeedReader.Form1.resources
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\SpeedReader.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\Microsoft.CSharp.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.Data.DataSetExtensions.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.Data.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.Deployment.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.Drawing.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.Windows.Forms.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.Xml.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\System.Xml.Linq.dll
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\ZewReader.exe.config
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\ZewReader.exe.manifest
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\ZewReader.application
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\ZewReader.exe
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\bin\Release\ZewReader.pdb
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\SpeedReader.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\ZewReader.Properties.Resources.resources
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\ZewReader.exe.manifest
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\ZewReader.application
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\ZewReader.exe
+C:\Users\user\Desktop\SpeedReader0\SpeedReader\SpeedReader\obj\Release\ZewReader.pdb

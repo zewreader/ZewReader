@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\SpeedReader.exe.config
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\SpeedReader.Form1.resources
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\SpeedReader.Properties.Resources.resources
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\SpeedReader.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\SpeedReader.exe
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\SpeedReader.pdb
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\itextsharp.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\itextsharp.pdfa.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\itextsharp.xtra.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\itextsharp.xml
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\SpeedReader.exe
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\SpeedReader.pdb
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\user\Desktop\New folder\SpeedReader\SpeedReader\obj\Debug\SpeedReader.csproj.ResolveComReference.cache
