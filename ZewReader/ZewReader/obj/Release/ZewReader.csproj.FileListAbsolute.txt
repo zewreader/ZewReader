@@ -58,3 +58,4 @@ Z:\myDocBack_N\softW\___Extra\ZewReader\ZewReader\ZewReader\obj\Release\ZewReade
 Z:\myDocBack_N\softW\___Extra\ZewReader\ZewReader\ZewReader\obj\Release\ZewReader.application
 Z:\myDocBack_N\softW\___Extra\ZewReader\ZewReader\ZewReader\obj\Release\ZewReader.exe
 Z:\myDocBack_N\softW\___Extra\ZewReader\ZewReader\ZewReader\obj\Release\ZewReader.pdb
+Z:\myDocBack_N\softW\___Extra\ZewReader\ZewReader\ZewReader\obj\Release\ZewReader.csprojResolveAssemblyReference.cache

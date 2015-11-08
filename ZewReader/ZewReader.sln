@@ -2,9 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "ZewReaderSetup", "ZewReaderSetup\ZewReaderSetup.isproj", "{CE03D908-58FF-468B-AD99-B181A87ED042}"
-	ProjectSection(ProjectDependencies) = postProject
-		{01866EA5-67AE-4AF9-8E18-781D63453D8C} = {01866EA5-67AE-4AF9-8E18-781D63453D8C}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZewReader", "ZewReader\ZewReader.csproj", "{01866EA5-67AE-4AF9-8E18-781D63453D8C}"
 EndProject

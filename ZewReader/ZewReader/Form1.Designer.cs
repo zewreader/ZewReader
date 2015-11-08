@@ -402,14 +402,13 @@
             // 
             // axAcroPDF1
             // 
-            this.axAcroPDF1.CausesValidation = false;
             this.axAcroPDF1.Dock = System.Windows.Forms.DockStyle.Right;
             this.axAcroPDF1.Enabled = true;
-            this.axAcroPDF1.Location = new System.Drawing.Point(692, 0);
+            this.axAcroPDF1.Location = new System.Drawing.Point(694, 0);
             this.axAcroPDF1.Name = "axAcroPDF1";
             this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
-            this.axAcroPDF1.Size = new System.Drawing.Size(797, 755);
-            this.axAcroPDF1.TabIndex = 19;
+            this.axAcroPDF1.Size = new System.Drawing.Size(795, 755);
+            this.axAcroPDF1.TabIndex = 23;
             // 
             // Form1
             // 
@@ -417,9 +416,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1489, 755);
+            this.Controls.Add(this.axAcroPDF1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Method);
-            this.Controls.Add(this.axAcroPDF1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.numberSet);
@@ -482,13 +481,14 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        public AxAcroPDFLib.AxAcroPDF axAcroPDF1;
         private System.Windows.Forms.GroupBox Method;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
+        private AxAcroPDFLib.AxAcroPDF axAcroPDF1;
+        // public AxAcroPDFLib.AxAcroPDF axAcroPDF1;
     }
 }
 

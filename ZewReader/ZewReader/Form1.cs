@@ -39,7 +39,7 @@ namespace SpeedReader
             OpenFileDialog dlg = new OpenFileDialog();
             string filepath;
             dlg.Filter = "PDF files(*.PDF)|*.PDF|All files(*.*)|*.*";
-            axAcroPDF1.LoadFile("");
+           // axFoxitCtl1.OpenFile("");
 
             if (dlg.ShowDialog() == DialogResult.OK)
             {
@@ -65,18 +65,25 @@ namespace SpeedReader
                         String s = PdfTextExtractor.GetTextFromPage(reader, page, its);
 
                         s = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(s)));
-                        strText = strText + s;
+                        strText = strText + " " +s;
 
                         MyText.Text = strText;
 
                     }
                     reader.Close();
                     i = 0;
-                    words = strText.Split(mychar);
+                    strText.Replace("\t", " ");
+                    strText.Replace("  ", " ");
+                    strText.Replace("\u2000", " ");
+                    strText.Replace(Environment.NewLine, "\n");
+                    words = strText.Split(new char[] { mychar}, StringSplitOptions.RemoveEmptyEntries);
                     progressBar1.Maximum = words.Length;
                     timer1.Stop();
                     timer1.Start();
+                    //axFoxitCtl1.OpenFile();
                     axAcroPDF1.LoadFile(filepath);
+                    axAcroPDF1.src = filepath;
+                    axAcroPDF1.Show();
                    
 
 
@@ -101,8 +108,8 @@ namespace SpeedReader
                     progressBar1.Value = i;
                     label4.Text = i.ToString() + " / " + words.Length.ToString();
                     label1.Text = words[i];
-                    label1.Text.Replace("\r", string.Empty).Replace("\n", " ");
-                    label1.Text.Trim();
+                   // label1.Text.Replace("\r", string.Empty).Replace("\n", " ");
+                    //label1.Text.Trim();
                     label1.SelectAll();
                     label1.SelectionAlignment = HorizontalAlignment.Center;
                     i++;
@@ -166,10 +173,11 @@ namespace SpeedReader
                 {
 
                     i = 0;
-                    MyText2.Text.Replace("\r", "\r ");
-                    string noline = MyText2.Text.Replace("\r", System.Convert.ToString(mychar));
+                    MyText2.Text.Replace(Environment.NewLine, "\n");
+                    MyText2.Text.Replace("\t", "\n");
+                    string noline = MyText2.Text.Replace("\n", System.Convert.ToString(mychar));
 
-                    words = noline.Split(mychar);
+                    words = noline.Split(new char[] { mychar }, StringSplitOptions.RemoveEmptyEntries);
 
 
                     progressBar1.Maximum = words.Length;
@@ -216,11 +224,11 @@ namespace SpeedReader
                 try
                 {
                     MyText.Text = File.ReadAllText(dlg.FileName);
-                    MyText.Text.Replace("\r", "\r ");
-                    string nolstrTextine = MyText.Text.Replace("\r", System.Convert.ToString(mychar)); //.Replace("\r", string.Empty).Replace("\n", " ");
-
+                    MyText.Text.Replace("\t", " ");
+                    MyText.Text.Replace(Environment.NewLine, "\n");
+                    string nolstrTextine = MyText.Text.Replace("\n", System.Convert.ToString(mychar));
                     i = 0;
-                    words = nolstrTextine.Split(mychar);
+                    words = nolstrTextine.Split(new char[] { mychar }, StringSplitOptions.RemoveEmptyEntries); ;
                     progressBar1.Maximum = words.Length;
                     timer1.Stop();
                     timer1.Start();
@@ -299,6 +307,7 @@ namespace SpeedReader
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             axAcroPDF1.Dispose();
+            axAcroPDF1 = null;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

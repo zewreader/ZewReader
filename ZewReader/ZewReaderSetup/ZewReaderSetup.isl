@@ -340,23 +340,23 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>AxInterop.AcroPDFLib.dll</td><td>{18DCF616-0A33-4BFB-9FD0-D6E7A36F0236}</td><td>INSTALLDIR</td><td>2</td><td/><td>axinterop.acropdflib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Interop.AcroPDFLib.dll</td><td>{071E7B1E-EDAE-4B05-8247-191BF5398842}</td><td>INSTALLDIR</td><td>2</td><td/><td>interop.acropdflib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Microsoft.CSharp.dll</td><td>{C6F1455C-4DDD-413D-851D-AA31985DE969}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.csharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Data.DataSetExtensions.dll</td><td>{B7884296-9DCB-4348-BC79-12E8443AD5B9}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.data.datasetextension</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Data.dll</td><td>{5055B9C3-4365-4FA1-A253-92260D98D099}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.data.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Deployment.dll</td><td>{504B8202-A4DD-40E6-AEA6-628A67DCEB17}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.deployment.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Drawing.dll</td><td>{855721DF-8063-4D54-9B5A-DF8EEEEB1D7F}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.drawing.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Windows.Forms.dll</td><td>{DD9093B7-28EF-4174-B595-6E289E1E4CAF}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.windows.forms.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Xml.Linq.dll</td><td>{6DA0FFD7-9F55-402D-B06B-40DC35B28039}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.xml.linq.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Xml.dll</td><td>{E6119CD3-3F04-4305-8F33-D0975E43AAB9}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.xml.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.dll</td><td>{0FB37A6B-F69F-4174-B86D-EF342C4D90EA}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AxInterop.AcroPDFLib.dll</td><td>{5DCFA235-F2DB-4F42-9898-3BC7386A1F9A}</td><td>INSTALLDIR</td><td>2</td><td/><td>axinterop.acropdflib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Interop.AcroPDFLib.dll</td><td>{642425BF-FF0A-49A8-89CE-C309344160F3}</td><td>INSTALLDIR</td><td>2</td><td/><td>interop.acropdflib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.CSharp.dll</td><td>{238380BC-CA14-4112-950F-E8845E24794A}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.csharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Data.DataSetExtensions.dll</td><td>{8F49800D-B28D-4AD3-AD71-9D054392CC61}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.data.datasetextension</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Data.dll</td><td>{A819CE96-C554-4884-968E-6237C64EF0BE}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.data.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Deployment.dll</td><td>{3365D878-76AB-4019-9E75-F3CBDE3CA039}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.deployment.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Drawing.dll</td><td>{6C2E21B8-D824-46B3-B6EC-70CD7446DA5D}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.drawing.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Windows.Forms.dll</td><td>{3024BE6A-2432-43B6-8CFE-0D351247A979}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.windows.forms.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Xml.Linq.dll</td><td>{ED122061-2E18-4AFF-870D-DAFC79576702}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.xml.linq.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Xml.dll</td><td>{5D05DF54-D258-4179-9431-D7340B63293E}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.xml.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.dll</td><td>{4CFF647E-CF10-4627-A94C-8E07C0FBEC10}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ZewReader.Primary_output</td><td>{46937780-3BD5-4CBD-8219-75C7C8B84B1A}</td><td>INSTALLDIR</td><td>2</td><td/><td>zewreader.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ZewReader.Primary_output1</td><td>{3EFE0D8E-DBDB-4E9F-A32D-CF423B8FF5D4}</td><td>INSTALLDIR</td><td>2</td><td/><td>zewreader.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>itextsharp.dll</td><td>{ED243096-BC3F-4FA5-9C9A-923D97CFB628}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>itextsharp.pdfa.dll</td><td>{D07C51D3-9F1A-4B9C-B244-EF44A10C0CAB}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.pdfa.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>itextsharp.xtra.dll</td><td>{A997785E-FD0A-41B5-AEB4-7A45D2C1209F}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.xtra.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>mscorlib.dll</td><td>{02B85BEC-520E-437A-83A5-F535AE319E16}</td><td>INSTALLDIR</td><td>2</td><td/><td>mscorlib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>itextsharp.dll</td><td>{32B78552-31AA-4C73-A1FB-90E4F353E8FE}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>itextsharp.pdfa.dll</td><td>{49D5940A-A166-4E91-AB71-21675BA80A0A}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.pdfa.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>itextsharp.xtra.dll</td><td>{089226E8-B618-43C6-B64A-38CFABB12AD8}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.xtra.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>mscorlib.dll</td><td>{583AEDA7-D8B2-4B3E-A9DF-1C323B3C133B}</td><td>INSTALLDIR</td><td>2</td><td/><td>mscorlib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1956,7 +1956,6 @@
 	<table name="ISAssistantTag">
 		<col key="yes" def="s72">Tag</col>
 		<col def="S255">Data</col>
-		<row><td>_Built</td><td/></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -2083,23 +2082,23 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>AxInterop.AcroPDFLib.dll</td><td/><td/><td>_2008AFBC_DC6B_4443_8BD1_9F4D799677E2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Interop.AcroPDFLib.dll</td><td/><td/><td>_2CB76FA8_3CBF_4E51_9BFA_0011E7F0A757_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Microsoft.CSharp.dll</td><td/><td/><td>_8FE00F0C_5FA8_4DFC_A72B_393361228821_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Data.DataSetExtensions.dll</td><td/><td/><td>_A7253400_4E6E_4484_B470_E7E34C9AF333_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Data.dll</td><td/><td/><td>_BD49C95C_EF96_42FE_93E4_5B9FEB8E0864_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Deployment.dll</td><td/><td/><td>_1747FAC3_137A_402D_99DF_D5775CA6EF20_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Drawing.dll</td><td/><td/><td>_5ED1B3D6_BDBB_46A9_8634_3805F15414E2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Windows.Forms.dll</td><td/><td/><td>_80CEC205_CCB9_4661_957C_CA2DF2ABE281_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Xml.Linq.dll</td><td/><td/><td>_65733099_373E_4F81_A4E0_D5D46A0CC99D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Xml.dll</td><td/><td/><td>_96A5012B_76A2_466B_8767_195B193752AC_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.dll</td><td/><td/><td>_A7CE429E_EFE2_4644_BAB4_F7DE1B27082A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AxInterop.AcroPDFLib.dll</td><td/><td/><td>_BB3EFD39_41B6_4752_BA6E_06A0E99FBEFC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Interop.AcroPDFLib.dll</td><td/><td/><td>_1FE95505_9962_4A0A_BE9B_4214349A1427_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.CSharp.dll</td><td/><td/><td>_D699805D_F90D_4EB8_9814_AA76074F460C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Data.DataSetExtensions.dll</td><td/><td/><td>_4E317076_D427_4A51_9A68_2F7AB85A9D11_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Data.dll</td><td/><td/><td>_C823438F_1DE9_439F_A880_8D8A1D2EF56B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Deployment.dll</td><td/><td/><td>_4A10723E_6C36_48AC_BBDA_C785A1AD3001_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Drawing.dll</td><td/><td/><td>_3B7413C6_8AC9_45FE_9D4D_C8BA2459EC47_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Windows.Forms.dll</td><td/><td/><td>_ECB94990_F59E_431F_8E11_6A6D3FE40ACF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Xml.Linq.dll</td><td/><td/><td>_4B6D57E7_D1D9_4E44_8944_DA171D3166A3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Xml.dll</td><td/><td/><td>_8BC67AA3_D9AA_481A_AC73_EAEFC05C18C7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.dll</td><td/><td/><td>_B70CB8D1_B292_4B26_ABF8_C0B6A9B386B4_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ZewReader.Primary_output</td><td/><td/><td>_273B6B2F_4B84_4582_B92F_D65D3D18ECB8_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ZewReader.Primary_output1</td><td/><td/><td>_9E83238E_0619_42A8_AE5D_A5505925CBBC_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>itextsharp.dll</td><td/><td/><td>_855A4FDF_1658_4975_9A48_CEBE085B93ED_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>itextsharp.pdfa.dll</td><td/><td/><td>_40DE8B05_8740_487F_A58E_C74520515AAF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>itextsharp.xtra.dll</td><td/><td/><td>_5C7D64AA_AA06_42CA_8DCB_FD59189F44E1_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>mscorlib.dll</td><td/><td/><td>_4329874F_0BCD_456C_9157_0D72FB163DBF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>itextsharp.dll</td><td/><td/><td>_9817090F_5D92_4647_A10B_DA3394AD8426_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>itextsharp.pdfa.dll</td><td/><td/><td>_438CF662_83B6_4BD8_B5E3_04714D14838F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>itextsharp.xtra.dll</td><td/><td/><td>_CE8C8268_2943_4D4B_855D_BB4036129AA6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>mscorlib.dll</td><td/><td/><td>_20D27239_D612_4C21_A603_3BAE21E9902A_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
