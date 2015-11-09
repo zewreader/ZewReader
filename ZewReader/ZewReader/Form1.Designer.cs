@@ -60,6 +60,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.contextMenuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numberSet)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -301,7 +302,7 @@
             this.button4.ForeColor = System.Drawing.Color.Red;
             this.button4.Location = new System.Drawing.Point(12, 63);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(216, 28);
+            this.button4.Size = new System.Drawing.Size(105, 28);
             this.button4.TabIndex = 17;
             this.button4.Text = "R E S E T";
             this.button4.UseVisualStyleBackColor = true;
@@ -398,12 +399,23 @@
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(123, 71);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(57, 17);
+            this.checkBox1.TabIndex = 23;
+            this.checkBox1.Text = "Simple";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(688, 755);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Method);
             this.Controls.Add(this.button5);
@@ -472,6 +484,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.CheckBox checkBox1;
        // private AxAcroPDFLib.AxAcroPDF axAcroPDF2;
        // public AxAcroPDFLib.AxAcroPDF axAcroPDF2;
         // public AxAcroPDFLib.AxAcroPDF axAcroPDF1;

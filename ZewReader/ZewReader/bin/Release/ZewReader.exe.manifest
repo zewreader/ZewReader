@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZewReader.exe" size="762880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZewReader.exe" size="763392">
       <assemblyIdentity name="ZewReader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>VJB5yIxtRZCm2dL7NwR7yq9kXxg=</dsig:DigestValue>
+        <dsig:DigestValue>+YMgLxVOaPfeQxt/qOHiiKf3STo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

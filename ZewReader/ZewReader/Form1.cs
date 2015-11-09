@@ -12,6 +12,7 @@ using iTextSharp.text.pdf;
 using iTextSharp;
 using System.IO;
 using Code7248.word_reader;
+using iTextSharp.text;
 
 
 namespace SpeedReader
@@ -36,6 +37,10 @@ namespace SpeedReader
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            iTextSharp.text.FontFactory.RegisterDirectories();
+           
+ 
             timer1.Stop();
             button5.Text = "P L A Y";
             OpenFileDialog dlg = new OpenFileDialog();
@@ -64,12 +69,27 @@ namespace SpeedReader
                              its = new iTextSharp.text.pdf.parser.LocationTextExtractionStrategy(); //LocationTextExtractionStrategy
                         
                         }
-                        String s = PdfTextExtractor.GetTextFromPage(reader, page, its);
+                        String s;
+                        s = PdfTextExtractor.GetTextFromPage(reader, page, its);
 
-                        s = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(s)));
-                        strText = strText + " " +s;
+                        if (false)
+                        {
+                            var fTahoma = FontFactory.GetFont("Tahoma", BaseFont.IDENTITY_H);
 
+                            var pi = new Phrase(s, fTahoma);
+                            s = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.Unicode, Encoding.UTF8, Encoding.Unicode.GetBytes(pi.Content)));
+                            char[] charArray = s.ToCharArray();
+                            Array.Reverse(charArray);
+                            s = new string(charArray);
+                        }
+
+                       var ss = Encoding.UTF8.GetString(ASCIIEncoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(s)));
+
+                       
+                        //s = s.ToString;
+                        strText = strText + " " +ss;
                         MyText.Text = strText;
+                        //MyText.RightToLeft = MyText.Fon
 
                     }
                     reader.Close();
@@ -115,7 +135,26 @@ namespace SpeedReader
                     //  AutoClosingMessageBox.Show(words[i], progressBar1.Value.ToString() + "/" + words.Length.ToString(), System.Convert.ToInt32(numberSet.Value) * words[i].Length);
                     progressBar1.Value = i;
                     label4.Text = i.ToString() + " / " + words.Length.ToString();
-                    label1.Text = words[i];
+                        label1.Text ="";
+                    if (checkBox1.Checked)
+                    {
+                        var myword = words[i].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+                        for (int k = 0; k < myword.Length; k++)
+                        {
+                            if (myword[k].Length <= 3 && myword[k].ToLower() != "I" && myword[k].ToLower() != "he" && myword[k].ToLower() != "she"
+                                && myword[k].ToLower() != "we" && myword[k].ToLower() != "you")
+                                myword[k] = null;
+                        }
+                        for (int k = 0; k < myword.Length; k++)
+                        {
+                            label1.Text += myword[k] + ' ';
+                        }
+                    }
+                    else
+                    {
+                        label1.Text = words[i];
+                    }
                    // label1.Text.Replace("\r", string.Empty).Replace("\n", " ");
                     //label1.Text.Trim();
                     label1.SelectAll();
@@ -220,7 +259,7 @@ namespace SpeedReader
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            label1.Font = new Font(label1.Font.FontFamily, System.Convert.ToInt32(numericUpDown1.Value));
+            label1.Font = new System.Drawing.Font(label1.Font.FontFamily, System.Convert.ToInt32(numericUpDown1.Value));
         }
 
         private void MyText2_TextChanged(object sender, EventArgs e)
@@ -277,8 +316,11 @@ namespace SpeedReader
                     {
                         nolstrTextine = nolstrTextine.Replace(".", ". " + mychar);
                     }
+                
                     words = nolstrTextine.Split(new char[] { mychar }, StringSplitOptions.RemoveEmptyEntries); ;
+              
                     progressBar1.Maximum = words.Length;
+
                     timer1.Stop();
                     button5.Text = "P L A Y";
 
